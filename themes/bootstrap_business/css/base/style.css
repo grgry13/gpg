@@ -74,7 +74,7 @@ thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 
 
 #pre-header-inside { display: none; position: relative; z-index: 13; padding: 40px 0 0 0; }
 
-#header-top { background-color: #fcfcfc; border-bottom: 1px dashed #eaeaea; position: relative; z-index: 12; min-height: 50px; } 
+#header-top { background-color: #e0e0e0; border-bottom: 1px dashed #eaeaea; position: relative; z-index: 12; min-height: 50px; } 
 
 #header { background-color: #fcfcfc; border-bottom: 1px solid #eaeaea; position: relative; z-index: 5; padding: 40px 0; text-align: center; min-height: 130px; }
 
@@ -222,7 +222,12 @@ position: absolute; top: 20px; right: 17px; font-size: 11px; font-weight: 400; }
 /* Logo - Site name*/
 #logo { padding:0 0 5px 0; text-align: center; }
 
-#logo img { display: inherit; }
+#logo img {
+    display: inherit;
+    float: left;
+    margin-right: 10px;
+    max-width: 55px;
+}
 
 #logo img:hover { opacity: 0.8; filter: alpha(opacity=80); }
 
